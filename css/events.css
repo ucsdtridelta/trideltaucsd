@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css?family=League+Script|Quicksand:300,400,500,700');
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
+/*body{
+   font-family: 'Open Sans',serif;
+}*/
+
+/*body {
+  padding-top: 0%;
+}*/
+
+@media and (min-width: 2px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+
+h2 {
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+/*  font-size:3.2vw;*/
+}
+
+
+h3 {
+  font-family: Quicksand;
+  font-size: 1.5em;
+ /* font-size:2.3vw;*/
+}
+
+h5{
+  font-family: Quicksand;
+  font-size: 1em;
+/*  font-size:1.5vw;*/
+}
+
+.info {
+  margin-top: 5%;
+  
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+
+/*------------------EVENTS PAGE START-------------------*/
+@media (max-width: 375px) {
+    .events-spacing {
+        width: 65%;
+    }
+}
+
+@media (max-width: 414px) {
+    .events-spacing {
+        width: 65%;
+    }
+}
+
+.month-title {
+  text-align: center;
+  margin-top: 5%;
+  font-size:3.5em;
+  color: #FFBFB7;
+  font-weight: bold;
+  font-family: 'Quicksand';
+}
+.events-page {
+  margin-top: 2.5em;
+  font-family: Quicksand;
+  margin-bottom: 2.5em;
+}
+
+.events-page > h1 {
+  font-family: Quicksand;
+  text-transform: uppercase;
+  font-size: 7em;
+  font-size: 3.2vw;
+}
+
+.events-spacing{
+  margin-top:5%;
+  margin-bottom: 7.5%;
+}
+
+.eventbox{
+  border: 2px dotted #FFBFB7;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* EVENTS PAGE END */
+
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+}
+
+.article-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+

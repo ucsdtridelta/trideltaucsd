@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=League+Script|Quicksand:300,400,500,700');
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
+/*body{
+   font-family: 'Open Sans',serif;
+}*/
+
+body {
+  padding-top: 0%;
+}
+
+/*@media and (min-width: 2px) {
+  body {
+    padding-top: 0px;
+  }
+}*/
+
+
+.navbar{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #FFBFB7 !important;
+}
+
+.logo {
+  width: 30% !important;
+  height: auto !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top:2.5% !important;
+}
+
+/*------BANNER START------*/
+.banner {
+  overflow-y: hidden;
+  display: block;
+  position: relative;
+}
+
+.banner > .banner-image {
+  width:100%;
+  height: 100%;
+  display:block;
+}
+/* BANNER END */
+
+/*---------------Welcome Statement Start--------------------*/
+.welcome{
+  font-family: 'Quicksand', sans-serif;
+  font-size:1.25em;
+  margin-bottom: 5%;
+}
+
+/*---------------------------Welcome End--------------------*/
+.welcome-title {
+  text-align: center;
+  margin-top: 5%;
+  font-size:2.25em;
+  color: #FFBFB7;
+  font-weight: bold;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+}
+
+.article-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*---------------------------FOOTER START--------------------*/
+.ginsystem-login {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.ginsystem-login input {
+  width: 80%;
+  /*font-size: 1em;*/
+  font-size: 15px;
+}
+
+.gin-login {
+  width: 80%;
+  display: block;
+  margin: 0px auto;
+  font-size:15px;
+  /*font-size: 1.25em;
+  font-size:1.25vw;*/
+  /*align-content: center;*/
+  background-color: #f6a993; 
+}
+
+.forgot {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.username, .password {
+  margin: 2.5% auto;
+}
+
+
+
+.ginsystem-login form {
+  align-content: center;
+  /*font-size: 1.25em;
+  font-size:1.25vw;*/
+  font-size:15px;
+}
+
+
+
+.footer-text{
+  /*margin-top: 5%;*/
+  color:white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+ /* font-size: 1.25em;
+  font-size:1.6vw;*/
+  font-weight: bold;
+  align-content: center;
+}
+
+.footer-text1{
+  margin-top: 10%;
+  color:white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  /*font-size: 1em;
+  font-size:1.6vw;*/
+  font-weight: bold;
+  align-content: center;
+}
+
+.footer-text1 > .gamma-lambda{
+  /*font-size:1vw;*/
+  font-size:15px;
+  font-style: italic;
+  margin-bottom: 4%;
+}
+.footer-text2{
+ /* margin-top: 5%;*/
+  margin-bottom: 1%;
+  color:white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+/*  font-size: 1.25em;
+  font-size:2.1vw;*/
+/*  font-weight: bolder;*/
+  align-content: center;
+}
+
+.contact-us{
+  /*margin-top: 3%;*/
+  /*margin-bottom: 2vh;*/
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  /*font-size: 1.25em;
+  font-size:2.1vw;*/
+  /*font-weight: bolder;*/
+  align-content: center;
+  margin-bottom: 1%;
+}
+
+.contact{
+  text-align: center;
+}
+
+.social{
+  margin-bottom: 2%
+}
+
+.chapter {
+  text-align: center;
+  font-family:  'Quicksand', sans-serif;
+ /* font-weight:500;*/
+  color: white;
+  font-size: 1.25em;
+}
+
+.vppr-email{
+  margin-top: -2%;
+  margin-bottom: 2vh;
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:15px;
+  /*font-size: 1.25em;
+  font-size:1.5vw;*/
+  font-weight: lighter;
+  align-content: center;
+}
+
+
+.social-media {
+  color: white;
+  text-align: center;
+}
+
+.fa-facebook-f{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.ho:hover {
+    opacity: 0.5;
+}
+
+a:hover {
+    color: white;
+    text-decoration-line: none;
+}
+
+.fa-instagram{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.fa-pinterest-p{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.fa-twitter{
+  margin-right: 10px;
+  font-size:5vh; 
+  color: #ffffff;
+}
+
+.fa-tumblr{
+  margin-right: 10px;
+  font-size:5vh; 
+}
+
+.copy-right{
+  text-align: center;
+  color:#ffffff;
+  font-size:10px;
+  /*font-size:2vh;*/
+  margin-top: 1%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* FOOTER END */
+
+
+
+
+
+

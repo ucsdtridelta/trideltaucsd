@@ -1,0 +1,87 @@
+ .title {
+  text-align: center;
+  margin-top: 5%;
+  font-size:2.25em;
+  color: #FFBFB7;
+  font-weight: bold;
+  font-family: 'Petit Formal Script';
+  }
+
+  .question{
+    text-align:center;
+    font-size:1.2em;
+    font-weight:bold;
+    font-family:Quicksand;
+      color: #FFBFB7;
+      margin-top:6%;
+
+  }
+  .answer{
+    margin-left:7%;
+    margin-right:7%;
+    font-family: Quicksand;
+  }
+  .FAQ{
+    margin-left:2em;
+    margin-right:5em !important; 
+  }
+  .section-margin{
+    margin-left:2em;
+    margin-right:2em !important;
+  }
+
+.header{
+  font-family:Quicksand;
+  font-size:2.25em;
+  font-weight: bold;
+  color:#FFBFB7;
+  text-align:center;
+  margin-top:5%;
+}
+
+.faqmargin{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+  /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    font-family: Quicksand;
+    font-size: 1.25em;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.actives, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 18px 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-family: Quicksand;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #FFBFB7;
+    float: right;
+    margin-left: 5px;
+}
+
+.actives:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color: #FFBFB7;
+}
